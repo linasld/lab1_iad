@@ -1,0 +1,40 @@
+# Байткод Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.env/
+
+# Логи
+*.log
+
+# Результаты тестов и кеши
+.cache/
+.coverage
+htmlcov/
+
+# Сборка и дистрибутивы
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Конфиги с секретами
+*.env
+*.secret
+*.pem
+secrets.json
+
+# IDE
+.idea/
+.vscode/
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
